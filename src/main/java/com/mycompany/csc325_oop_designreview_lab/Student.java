@@ -37,5 +37,14 @@ public class Student extends Human {
           super.address = address;
     }
 
+    @Override
+    public String toString() {
+        return "Senior{" +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", address='" + getAddress() + '\'' +
+                ", gpa=" + getGpa() +
+                '}';
+    }
     // ToDo 4: Add comments to your code
 }

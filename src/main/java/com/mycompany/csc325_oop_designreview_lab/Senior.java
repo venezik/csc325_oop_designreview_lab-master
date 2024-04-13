@@ -29,7 +29,6 @@ public class Senior extends Student {
         return "Senior{" +
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
-                ", address='" + getAddress() + '\'' +
                 ", gpa=" + getGpa() +
                 ", credits=" + credits +
                 '}';
